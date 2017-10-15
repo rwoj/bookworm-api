@@ -15,7 +15,8 @@
     "node": true
   },
   "rules": {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "no-underscore-dangle": {"allow": ["_id"]}
   }
 }
 # © 2017 GitHub, Inc.
